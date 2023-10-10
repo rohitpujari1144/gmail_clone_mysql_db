@@ -1,0 +1,27 @@
+.createAccount:hover{
+    cursor: pointer;
+}
+
+.forgotEmail:hover{
+    cursor: pointer;
+}
+
+.loginMainContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+@media (max-width:400px) {
+    .loginMainContainer{
+        width: 90%;
+    }
+}
